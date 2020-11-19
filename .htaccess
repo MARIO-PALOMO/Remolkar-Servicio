@@ -1,0 +1,3 @@
+DirectoryIndex disabled
+RewriteEngine on
+RewriteRule (.*) http://localhost:3105/$1 [P,L]
